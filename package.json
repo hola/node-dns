@@ -1,6 +1,6 @@
 {
-  "name": "native-dns",
-  "version": "0.7.1",
+  "name": "@hola.org/native-dns",
+  "version": "0.7.2",
   "authors": [
     "Timothy J Fontaine <tjfontaine@gmail.com> (http://atxconsulting.com)",
     "Greg Slepak <contact@taoeffect.com> (https://twitter.com/taoeffect)",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/hola/node-dns.git"
+    "url": "git+ssh://git@github.com/hola/node-dns.git"
   },
   "main": "dns.js",
   "engines": {
@@ -35,5 +35,12 @@
   "devDependencies": {
     "optimist": "",
     "nodeunit": ">= 0.7.4"
-  }
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
 }
